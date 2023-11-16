@@ -1,7 +1,7 @@
 {
   "packages": [
     "app",
-    "database-client",
+    "database-clientt",
     "iam",
     "identity",
     "schemas",
