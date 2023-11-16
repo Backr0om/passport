@@ -1,6 +1,9 @@
 import * as aws from "@pulumi/aws";
 import * as pulumi from "@pulumi/pulumi";
 
+
+
+
 export function createPagerdutyTopic(): aws.sns.Topic {
   const pagerdutyTopic = new aws.sns.Topic("pagerduty", {
     name: "Pagerduty",
