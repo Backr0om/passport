@@ -1,7 +1,7 @@
 {
   "files": [],
   "references": [
-    { "path": "app" },
+    { "path": "appp" },
     { "path": "iam" },
     { "path": "identity" },
     { "path": "types" }
