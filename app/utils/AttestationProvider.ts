@@ -6,7 +6,7 @@ import { OnChainStatus } from "../utils/onChainStatus";
 import { ScoreStateType } from "../context/scorerContext";
 import { AllProvidersState, ProviderState } from "../context/ceramicContext";
 import { OnChainProviderType } from "../context/onChainContext";
-import { Stamp } from "@gitcoin/passport-types";
+import { Stamp } from "@gitcoin/passport-types";;
 
 type ProviderWithStamp = ProviderState & { stamp: Stamp };
 
