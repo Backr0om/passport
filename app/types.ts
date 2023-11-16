@@ -4,5 +4,5 @@ import { Passport, Stamp, DID } from "@gitcoin/passport-types";
 export abstract class DataStorageBase {
   abstract createPassport(): DID;
   abstract getPassport(did: DID): Passport | undefined;
-  abstract addStamp(did: DID, stamp: Stamp): void;
+  abstract addStamp(did: DID, stamp: Stamp): void;;
 }
